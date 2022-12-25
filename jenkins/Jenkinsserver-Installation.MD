@@ -51,11 +51,10 @@ yum -y install jenkins
 ```sh
 # Start jenkins service
 systemctl start jenkins
-
 # Setup Jenkins to start at boot,
 systemctl enable jenkins
 ```
-
+chkconfig jenkins on   #whenever system restarts jenkins service will be on
 #### Accessing Jenkins
 By default jenkins runs at port `8080`, You can access jenkins at
 ```sh
