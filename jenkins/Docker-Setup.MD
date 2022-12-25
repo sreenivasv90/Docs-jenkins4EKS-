@@ -8,7 +8,7 @@ chkconfig docker on       #docker service start on reboot of instance
 
 ## provide permissions to jenkins user in jenkins server to access docker
 ```sh
-  sudo groupadd docker                 #when we install docker by default we will get a group docker--->cat/etc/group | grep -i docker
+  sudo groupadd docker                 #when we install docker by default we will get a group docker--->cat /etc/group | grep -i docker
   sudo usermod -aG docker jenkins      # adding the group jenkins to docker--sothat whenever we can run docker comands from jenkins
   sudo chmod 777 /var/run/docker.sock  # we need to provide full accesss to docker.soc file
 ```
