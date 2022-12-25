@@ -1,8 +1,8 @@
 ## Install Docker
 ```sh
 yum install docker
-systemctl start docker
-systemctl enable docker
+systemctl start docker    #service docker status (old command)
+systemctl enable docker   #service docker start (old command)
 ```
 
 ## provide permissions to jenkins user in jenkins server to access docker
