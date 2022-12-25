@@ -30,3 +30,5 @@ vi /etc/passwd
 change shell from /bin/false to /bin/bash
 ```
 
+# install/upgrade aws cli
+# https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
